@@ -13,10 +13,14 @@ Simple snippet to add zoom on posts images for Ghost 0.11.11
       });
       </script>
 
-* ###### Config:
+#### Config:
 You can set the margin-top and margin-left with: `appearance(X,Y)` where X = Margin-top & Y = Margin-left in percent.
 
     $(function(){
         appearance(10,10);
     });
     </script>
+
+#### Install on Ghost
+
+Put the code in your code-injections block under settings.
